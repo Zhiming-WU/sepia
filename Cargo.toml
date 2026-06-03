@@ -1,0 +1,18 @@
+[workspace]
+resolver = "3"
+members = [
+    "crates/sepia-hash",
+    "crates/sepia-straw2",
+    "crates/sepia-mon",
+    "crates/sepia-osd",
+    "sepia",
+]
+
+[workspace.package]
+edition = "2024"
+repository = "https://github.com/Zhiming-WU/sepia.git"
+license = "MIT"
+
+[workspace.dependencies]
+sepia-hash = { path = "crates/sepia-hash" }
+sepia-straw2 = { path = "crates/sepia-straw2" }

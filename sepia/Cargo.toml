@@ -1,0 +1,8 @@
+[package]
+name = "sepia"
+version = "0.1.0"
+edition.workspace = true
+license.workspace = true
+description = "WIP (Work In Progress) for a minimal Ceph compatible backend in Rust - CLI binaries"
+
+[dependencies]
